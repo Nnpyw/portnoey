@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+fieldset{
+    font-family: 'FC Palette';
+    border: 5px solid rgb(247, 179, 53);
+   
+    padding-left: 80px;
+}
+
+fieldset legend{
+    font-size: 60px;
+    color:rgb(247, 179, 53);
+}
+
+.content{
+   
+    line-height: 80px;
+}
+
+.content input{
+    border: none;
+    background-color: rgb(223, 214, 228);
+    border-bottom: 4px solid rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'FC Palette';
+}
+
+.content span{
+    font-size: 50px;
+}
+
+.content select{
+    font-size: 40px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(223, 214, 228);
+    font-family: 'FC Palette';
+    cursor: pointer;
+}
+
+.content button{
+    font-family: 'FC Palette'; 
+    font-size: 40px;
+    background-color: rgb(14, 240, 71);
+    border: none;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content button:hover{
+    transition: all 0.5s;
+    box-shadow: 8px 10px 53px 6px rgba(138,112,112,0.59);
+    -webkit-box-shadow: 8px 10px 53px 6px rgba(138,112,112,0.59);
+    -moz-box-shadow: 8px 10px 53px 6px rgba(138,112,112,0.59);
+}
+
+#timer{
+    font-size: 50px;
+}
+
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    border: 3px solid rgb(247, 179, 53);
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    
+}
+
+.pink{
+    background-color: #FF6699; 
+}
+.blue{
+    background-color:#72b2f3; 
+}
+
+.green{
+    background-color: rgb(132, 238, 132); 
+}
